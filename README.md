@@ -1,13 +1,15 @@
 # AES-256 Implementation in C
 
-This project demonstrates a simplified AES-256 encryption implementation written in C.
+This repository contains a simple educational implementation of AES-256 encryption in C.
 
-The purpose of this repository is educational and focuses on understanding the core AES transformations used in symmetric cryptography.
+The goal of this project is to demonstrate the basic internal transformations of the
+Advanced Encryption Standard (AES) used in symmetric cryptography.
 
 Features
+
 - AES-256 block encryption
 - ECB mode example
-- Round transformations
+- Core AES round transformations
   - SubBytes
   - ShiftRows
   - AddRoundKey
@@ -16,34 +18,34 @@ Features
 Folder Structure
 
 aes.c        AES encryption logic
-aes.h        header file
+aes.h        header definitions
 main.c       example test program
-Makefile     compilation instructions
+Makefile     build instructions
 
-Build Instructions
+Build
 
-To compile the program:
+Compile using GCC:
 
 gcc aes.c main.c -o aes_test
 
-Run the program:
+Run:
 
 ./aes_test
 
 Output
 
-The program encrypts a sample 16-byte block using AES-256 and prints the encrypted result.
+The program encrypts a sample 16-byte block and prints the encrypted output.
 
 Applications
 
-AES encryption is widely used in:
+AES encryption is used in:
 
-- secure communication
-- embedded security
-- secure boot
-- encrypted storage
+- Secure communication protocols
+- Embedded system security
+- Secure boot systems
+- Disk encryption
 
 Author
 
-Janani T
+Janani T  
 Embedded Systems & Cryptography Developer
